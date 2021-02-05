@@ -6,14 +6,6 @@ You can easily load images with your custom layout, and there are many kinds of 
      implementation 'com.github.akshaaatt:slider:1.0.0'
 ```
 
-### New Feautures
-* Ability to disable default indicator.
-
-### New Changes
-* Auto cycle bugs fixed.
-* Swiping debounce implemented.
-
-
 ## Demo
 ![](https://github.com/akshaaatt/Slider/blob/master/media/0.jpg)
 
