@@ -261,7 +261,7 @@ class KotlinActivity : AppCompatActivity() {
                 override fun onCreateViewHolder(
                     layoutInflater: LayoutInflater,
                     parent: ViewGroup
-                ): ViewBinding? {
+                ): ViewBinding {
                     return ItemCustomFixedSizeLayout3Binding.inflate(
                         layoutInflater,
                         parent,
@@ -310,7 +310,7 @@ class KotlinActivity : AppCompatActivity() {
                 override fun onCreateViewHolder(
                     layoutInflater: LayoutInflater,
                     parent: ViewGroup
-                ): ViewBinding? {
+                ): ViewBinding {
                     return ItemCustomFixedSizeLayout2Binding.inflate(
                         layoutInflater,
                         parent,
