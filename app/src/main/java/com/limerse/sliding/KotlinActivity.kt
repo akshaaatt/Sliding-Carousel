@@ -115,12 +115,11 @@ class KotlinActivity : AppCompatActivity() {
 
             val listOne = mutableListOf<CarouselItem>()
 
-            for ((index, item) in DataSet.one.withIndex()) {
+            for (item in DataSet.five) {
                 listOne.add(
                     CarouselItem(
-                        imageUrl = item,
-                        caption = "Image ${index + 1} of ${DataSet.one.size}",
-                        headers = headers
+                        imageDrawable = item.first,
+                        caption = item.second,
                     )
                 )
             }

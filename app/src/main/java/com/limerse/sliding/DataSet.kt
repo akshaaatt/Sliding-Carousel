@@ -2,13 +2,11 @@ package com.limerse.sliding
 
 object DataSet {
     val one = listOf(
-        "https://images.unsplash.com/photo-1513072064285-240f87fa81e8?w=1080",
-        "https://images.unsplash.com/photo-1540866225557-9e4c58100c67?w=1080",
-        "https://images.unsplash.com/photo-1573322867455-fc97c490c14c?w=1080",
-        "https://images.unsplash.com/photo-1519817650390-64a93db51149?w=1080",
-        "https://images.unsplash.com/photo-1581357825340-32259110788a?w=1080",
-        "https://images.unsplash.com/photo-1581441117193-63e8f6547081?w=1080",
-        "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1080",
+        R.drawable.arcticmonkeys,
+        R.drawable.lauv,
+        R.drawable.troyesivan,
+        R.drawable.lp,
+        R.drawable.bmth
     )
 
     val two = listOf(
@@ -42,19 +40,18 @@ object DataSet {
     )
 
     val five = listOf(
-        R.drawable.arcticmonkeys to "Arctic Monkeys",
+        R.drawable.the_beatles to "The Beatles",
         R.drawable.lauv to "Lauv",
         R.drawable.troyesivan to "Troye Sivan",
         R.drawable.lp to "Linkin Park",
         R.drawable.bmth to "Bring Me The Horizon",
-    )
+        R.drawable.arcticmonkeys to "Arctic Monkeys",
+        )
 
     val six = listOf(
-        "Lorem ipsum" to "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices gravida dictum fusce ut placerat.",
-        "Cum sociis" to "Cum sociis natoque penatibus et. Phasellus egestas tellus rutrum tellus pellentesque eu.",
-        "Euismod lacinia" to "Euismod lacinia at quis risus. Eu facilisis sed odio morbi quis commodo odio aenean. Morbi tristique senectus et netus et malesuada.",
-        "Tincidunt ornare" to "Tincidunt ornare massa eget egestas. Magna ac placerat vestibulum lectus. A lacus vestibulum sed arcu non odio euismod lacinia at.",
-        "Pellentesque elit" to "Pellentesque elit ullamcorper dignissim cras. Ut enim blandit volutpat maecenas volutpat. Porta lorem mollis aliquam ut porttitor leo a.",
-        "Semper eget" to "Semper eget duis at tellus at urna. Tortor aliquam nulla facilisi cras. Id porta nibh venenatis cras. Quam vulputate dignissim suspendisse in est. ",
+        "Rob Willis (Birthday Party)" to "Hi Will, I just want to say thank you for Saturday night (22/5/21). It was awesome and people kept messaging me about how good you guys were, including all my neighbours! I really appreciate it and hope to book you again.",
+        "Judy Tighe (Christmas Party)" to "Do book the Miacats for your special evenings. they were wonderful playing music to suite all age groups, everyone was up and dancing, such a delightful couple!",
+        "Guy Shepherd (NATO)" to "The True Colours were absolutely fantastic at our work BBQ function. They played a great set and then showed terrific flexibility by moving inside, in order to play another set when the weather got cold. They really created a terrific atmosphere and made the night a real success.",
+        "Dawn Edwell and Emma Bell (Academic Event, The Open University)" to "Your music sounds fab! Thanks Mia, you guys were awesome.",
     )
 }
