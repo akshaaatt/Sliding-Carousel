@@ -10,33 +10,32 @@ object DataSet {
     )
 
     val two = listOf(
-        "https://images.unsplash.com/photo-1569398034126-476b0d96e2d1?w=1080",
-        "https://images.unsplash.com/photo-1507667522877-ad03f0c7b0e0?w=1080",
-        "https://images.unsplash.com/photo-1577255714682-69db9b067fda?w=1080",
-        "https://images.unsplash.com/photo-1604542031658-5799ca5d7936?w=1080",
-        "https://images.unsplash.com/photo-1619408507347-03b1e31851c5?w=1080",
-        "https://images.unsplash.com/photo-1619371208402-615001f13a45?w=1080",
-        "https://images.unsplash.com/flagged/photo-1554443877-b2ea8132bab7?w=1080",
+        "https://images.unsplash.com/photo-1557787163-1635e2efb160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80",
+        "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80",
+        "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80",
+        "https://images.unsplash.com/photo-1578946956088-940c3b502864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=882&q=80",
+        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+        "https://images.unsplash.com/photo-1573152958734-1922c188fba3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80",
     )
 
     val three = listOf(
-        "https://images.unsplash.com/photo-1558364015-0d5ba7a4ba86?w=1080" to "Photo by Mae Mu on Unsplash",
-        "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1080" to "Photo by an_vision on Unsplash",
-        "https://images.unsplash.com/photo-1572635148818-ef6fd45eb394?w=1080" to "Photo by Giorgio Trovato on Unsplash",
-        "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=1080" to "Photo by Mae Mu on Unsplash",
-        "https://images.unsplash.com/photo-1589533610925-1cffc309ebaa?w=1080" to "Photo by Sahand Babali on Unsplash",
-        "https://images.unsplash.com/photo-1547514701-42782101795e?w=1080" to "Photo by Xiaolong Wong on Unsplash",
-        "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=1080" to "Photo by Miguel Andrade on Unsplash",
-        "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=1080" to "Photo by Charles Deluvio on Unsplash",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Elvis-Presley-Album-Cover.jpg" to "Elvis Presley: Elvis Presley (1956)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Beatles-Sgt-Pepper-Cover.jpg" to "The Beatles: Sgt Pepper’s Lonely Hearts Club Band (1967)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Pink-Floyd-Dark-Side-Of-The-Moon.jpg" to "Pink Floyd: The Dark Side Of The Moon (1973)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Fleetwood-Mac-Rumours-.jpg" to "Fleetwood Mac: Rumours (1977)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Prince-Purple-Rain.jpg" to "Prince: Purple Rain (1984)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Bruce-Springsteen-Born-In-The-USA.jpg" to "Bruce Springsteen: Born In The USA (1984)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Grace-Jones-Island-Life.jpg" to "Grace Jones: Island Life (1985)",
+        "https://www.udiscovermusic.com/wp-content/uploads/2017/08/The-Smiths-Meat-Is-Murder-.jpg" to "The Smiths: Meat Is Murder (1985)",
     )
 
     val four = listOf(
-        "https://images.unsplash.com/photo-1618207981235-22a93d2e3ef8?w=1080",
-        "https://images.unsplash.com/photo-1618346136472-090de27fe8b4?w=1080",
-        "https://images.unsplash.com/photo-1544179516-b0878e1cbe48?w=1080",
-        "https://images.unsplash.com/photo-1620236104164-d2e71d7f4b1f?w=1080",
-        "https://images.unsplash.com/photo-1470104240373-bc1812eddc9f?w=1080",
-        "https://images.unsplash.com/photo-1619901373505-bb71126e5fbb?w=1080",
+        "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80",
+        "https://images.unsplash.com/photo-1578946956088-940c3b502864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=882&q=80",
+        "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+        "https://images.unsplash.com/photo-1573152958734-1922c188fba3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80",
     )
 
     val five = listOf(
