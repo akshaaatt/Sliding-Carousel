@@ -7,7 +7,7 @@ Slider is an Android library to add a beautiful image carousel to your app at ea
 
 * Written in Kotlin
 * No boilerplate code
-* Easy initialiZation
+* Easy initialization
 
 ## Gradle Dependency
 
