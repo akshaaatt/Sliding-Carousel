@@ -1,6 +1,5 @@
 [![IMG-20210526-221913.jpg](https://i.postimg.cc/FKYVqNnP/IMG-20210526-221913.jpg)](https://postimg.cc/nstm9bx7)
-
-[![ezgif-com-gif-maker-1.gif](https://i.postimg.cc/mrPKwx34/ezgif-com-gif-maker-1.gif)](https://postimg.cc/DWKCvMYp)
+[![oka.gif](https://i.postimg.cc/DZMrPDc9/oka.gif)](https://postimg.cc/G8vTcXVK)
 
 Sliding Carousel is an Android library to add a beautiful image carousel to your app at ease.
 
