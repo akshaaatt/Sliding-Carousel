@@ -1,1 +1,2 @@
-include ':app', ':slider'
+include ':app'
+include ':slider'

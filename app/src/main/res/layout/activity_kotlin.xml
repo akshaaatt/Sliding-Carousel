@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:scrollbars="none"
+    tools:context=".KotlinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="32dp"
+            android:text="@string/library_name"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.limerse.slider.ImageCarousel
+            android:id="@+id/carousel1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:autoPlay="true"
+            app:autoPlayDelay="4000" />
+
+        <!-- ================================================================ -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <com.limerse.slider.ImageCarousel
+                        android:id="@+id/carousel2"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_weight="1"
+                        app:carouselBackground="@android:color/transparent"
+                        app:carouselPadding="0dp"
+                        app:carouselPaddingBottom="0dp"
+                        app:carouselPaddingEnd="0dp"
+                        app:carouselPaddingStart="0dp"
+                        app:carouselPaddingTop="0dp"
+                        app:carouselType="BLOCK"
+                        app:imageScaleType="centerCrop"
+                        app:infiniteCarousel="false"
+                        app:nextButtonId="@id/custom_btn_next"
+                        app:nextButtonLayout="@layout/custom_next_button_layout"
+                        app:nextButtonMargin="16dp"
+                        app:previousButtonId="@id/custom_btn_previous"
+                        app:previousButtonLayout="@layout/custom_previous_button_layout"
+                        app:previousButtonMargin="16dp"
+                        app:scaleOnScroll="false"
+                        app:showBottomShadow="false"
+                        app:showCaption="false"
+                        app:showIndicator="false"
+                        app:showNavigationButtons="true"
+                        app:showTopShadow="false"
+                        app:touchToPause="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- ================================================================ -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/horizontal_margin"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="8dp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.limerse.slider.ImageCarousel
+                android:id="@+id/carousel3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="24dp"
+                android:translationZ="8dp"
+                app:autoPlay="true"
+                app:autoPlayDelay="3000"
+                app:carouselGravity="CENTER"
+                app:carouselType="SHOWCASE"
+                app:imageScaleType="centerCrop"
+                app:showBottomShadow="false"
+                app:showCaption="false"
+                app:showIndicator="false"
+                app:showNavigationButtons="false"
+                app:showTopShadow="false"
+                app:touchToPause="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="182dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:translationZ="8dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_goto_previous"
+                    style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="8dp"
+                    app:backgroundTint="@color/flat_grey_dark_2"
+                    app:icon="@drawable/ic_arrow_back"
+                    app:iconTint="@color/white" />
+
+                <TextView
+                    android:id="@+id/custom_caption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/flat_grey_dark_2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="@tools:sample/lorem/random" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_goto_next"
+                    style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="8dp"
+                    app:backgroundTint="@color/flat_grey_dark_2"
+                    app:icon="@drawable/ic_arrow_forward"
+                    app:iconTint="@color/white" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- ================================================================ -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="@dimen/horizontal_margin"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp" />
+
+                    <me.relex.circleindicator.CircleIndicator2
+                        android:id="@+id/custom_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        app:ci_animator="@animator/scale_with_alpha"
+                        app:ci_drawable="@drawable/dot"
+                        app:ci_drawable_unselected="@drawable/dot" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.limerse.slider.ImageCarousel
+                android:id="@+id/carousel4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:translationZ="8dp"
+                app:autoPlay="true"
+                app:autoPlayDelay="4000"
+                app:carouselGravity="CENTER"
+                app:carouselPaddingBottom="8dp"
+                app:carouselPaddingTop="8dp"
+                app:carouselType="SHOWCASE"
+                app:imageScaleType="centerCrop"
+                app:scaleOnScroll="true"
+                app:scalingFactor=".25"
+                app:showBottomShadow="false"
+                app:showCaption="false"
+                app:showIndicator="false"
+                app:showNavigationButtons="false"
+                app:showTopShadow="false" />
+
+        </FrameLayout>
+
+        <!-- ================================================================ -->
+        <com.limerse.slider.ImageCarousel
+            android:id="@+id/carousel5"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="16dp"
+            app:autoWidthFixing="false"
+            app:carouselGravity="START"
+            app:carouselPaddingEnd="8dp"
+            app:carouselPaddingStart="8dp"
+            app:carouselType="SHOWCASE"
+            app:imageScaleType="centerCrop"
+            app:infiniteCarousel="false"
+            app:scaleOnScroll="false"
+            app:showBottomShadow="false"
+            app:showCaption="false"
+            app:showIndicator="false"
+            app:showNavigationButtons="false"
+            app:showTopShadow="false" />
+
+        <!-- ================================================================ -->
+
+        <!-- ================================================================ -->
+
+        <com.limerse.slider.ImageCarousel
+            android:id="@+id/carousel6"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="16dp"
+            app:carouselGravity="START"
+            app:carouselPaddingEnd="8dp"
+            app:carouselPaddingStart="8dp"
+            app:carouselType="SHOWCASE"
+            app:showBottomShadow="false"
+            app:showCaption="false"
+            app:showIndicator="false"
+            app:showNavigationButtons="false"
+            app:showTopShadow="false" />
+
+        <!-- ================================================================ -->
+
+    </LinearLayout>
+
+</ScrollView>
