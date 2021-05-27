@@ -104,7 +104,7 @@ That's all you need to use the library! :)
 All the custom XML attributes for `ImageCarousel` view with default values are given below. All attributes are optional.
 
 ```xml
-<org.imaginativeworld.whynotimagecarousel.ImageCarousel
+<com.limerse.slider.ImageCarousel
     android:id="@+id/carousel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
