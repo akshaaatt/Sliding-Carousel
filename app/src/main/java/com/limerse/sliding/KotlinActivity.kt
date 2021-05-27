@@ -1,6 +1,8 @@
 package com.limerse.sliding
 
+import android.app.ActivityOptions
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -95,8 +97,9 @@ class KotlinActivity : AppCompatActivity() {
 
             carouselListener = object : CarouselListener {
                 override fun onClick(position: Int, carouselItem: CarouselItem) {
-                    Toast.makeText(this@KotlinActivity, "You clicked it.", Toast.LENGTH_SHORT)
-                        .show()
+                    val intent = Intent(this@KotlinActivity, SelectedImage::class.java)
+                    intent.putExtra("file",carouselItem.imageUrl ?: carouselItem.imageDrawable )
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this@KotlinActivity).toBundle())
                 }
 
                 override fun onLongClick(position: Int, carouselItem: CarouselItem) {
