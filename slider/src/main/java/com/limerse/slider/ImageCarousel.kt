@@ -263,13 +263,6 @@ class ImageCarousel(
             recyclerView.background = carouselBackground
         }
 
-    var imagePlaceholder: Drawable? = null
-        set(value) {
-            field = value
-
-            initAdapter()
-        }
-
     @Dimension(unit = Dimension.PX)
     var carouselPadding: Int = 0
         set(value) {
@@ -628,10 +621,6 @@ class ImageCarousel(
                     R.styleable.ImageCarousel_carouselBackground
                 ) ?: ColorDrawable(Color.parseColor("#00000000"))
 
-                imagePlaceholder = getDrawable(
-                    R.styleable.ImageCarousel_imagePlaceholder
-                ) ?: ContextCompat.getDrawable(context, R.drawable.carousel_default_placeholder)
-
                 carouselPadding = getDimension(
                     R.styleable.ImageCarousel_carouselPadding,
                     0F
@@ -740,7 +729,6 @@ class ImageCarousel(
                 carouselGravity = carouselGravity,
                 autoWidthFixing = autoWidthFixing,
                 imageScaleType = imageScaleType,
-                imagePlaceholder = imagePlaceholder
             ).apply {
                 listener = carouselListener
             }
@@ -751,7 +739,6 @@ class ImageCarousel(
                 carouselGravity = carouselGravity,
                 autoWidthFixing = autoWidthFixing,
                 imageScaleType = imageScaleType,
-                imagePlaceholder = imagePlaceholder
             ).apply {
                 listener = carouselListener
             }

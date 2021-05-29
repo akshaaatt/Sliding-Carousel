@@ -1,6 +1,5 @@
 package com.limerse.slider.adapter
 
-import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.limerse.slider.model.CarouselGravity
@@ -13,14 +12,12 @@ class InfiniteCarouselAdapter(
     carouselGravity: CarouselGravity,
     autoWidthFixing: Boolean,
     imageScaleType: ImageView.ScaleType,
-    imagePlaceholder: Drawable?
 ) : FiniteCarouselAdapter(
     recyclerView,
     carouselType,
     carouselGravity,
     autoWidthFixing,
-    imageScaleType,
-    imagePlaceholder
+    imageScaleType
 ) {
     override fun getItemCount(): Int {
         return if (dataList.isEmpty()) 0 else Integer.MAX_VALUE

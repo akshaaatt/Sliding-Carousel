@@ -3,7 +3,6 @@
 package com.limerse.slider.utils
 
 import android.content.Context
-import android.graphics.drawable.Drawable
 import android.util.DisplayMetrics
 import android.util.TypedValue
 import android.view.View
@@ -66,7 +65,6 @@ fun SnapHelper.getSnapPosition(layoutManager: RecyclerView.LayoutManager?): Int 
 fun ImageView.setImage(item: CarouselItem) {
     this.setImage(
         item = item,
-        placeholderDrawable = null,
         placeholderDrawableResourceId = null,
     )
 }
@@ -75,46 +73,10 @@ fun ImageView.setImage(item: CarouselItem) {
  * Set image to the carouse image view.
  *
  * @param item The carousel item.
- * @param placeholderDrawableResourceId The id of the resource to use as a placeholder.
- */
-fun ImageView.setImage(
-    item: CarouselItem,
-    @DrawableRes placeholderDrawableResourceId: Int
-) {
-    this.setImage(
-        item = item,
-        placeholderDrawable = null,
-        placeholderDrawableResourceId = placeholderDrawableResourceId,
-    )
-}
-
-/**
- * Set image to the carouse image view.
- *
- * @param item The carousel item.
- * @param placeholderDrawable The drawable to display as a placeholder.
- */
-fun ImageView.setImage(
-    item: CarouselItem,
-    placeholderDrawable: Drawable? = null,
-) {
-    this.setImage(
-        item = item,
-        placeholderDrawable = placeholderDrawable,
-        placeholderDrawableResourceId = null,
-    )
-}
-
-/**
- * Set image to the carouse image view.
- *
- * @param item The carousel item.
- * @param placeholderDrawable The drawable to display as a placeholder.
  * @param placeholderDrawableResourceId The id of the resource to use as a placeholder.
  */
 private fun ImageView.setImage(
     item: CarouselItem,
-    placeholderDrawable: Drawable? = null,
     @DrawableRes placeholderDrawableResourceId: Int? = null
 ) {
     val glide = Glide.with(context.applicationContext)
@@ -132,9 +94,6 @@ private fun ImageView.setImage(
     }
 
     requestBuilder = when {
-        placeholderDrawable != null -> {
-            requestBuilder.placeholder(placeholderDrawable)
-        }
         placeholderDrawableResourceId != null -> {
             requestBuilder.placeholder(placeholderDrawableResourceId)
         }

@@ -1,6 +1,5 @@
 package com.limerse.slider.adapter
 
-import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.view.ViewTreeObserver
@@ -21,7 +20,6 @@ open class FiniteCarouselAdapter(
     private val carouselGravity: CarouselGravity,
     private val autoWidthFixing: Boolean,
     private val imageScaleType: ImageView.ScaleType,
-    private val imagePlaceholder: Drawable?
 ) : RecyclerView.Adapter<FiniteCarouselAdapter.MyViewHolder>() {
 
     var listener: CarouselListener? = null
@@ -71,11 +69,7 @@ open class FiniteCarouselAdapter(
         if (holder.binding is ItemCarouselBinding) {
             holder.binding.img.scaleType = imageScaleType
 
-            if (imagePlaceholder != null) {
-                holder.binding.img.setImage(item, imagePlaceholder)
-            } else {
-                holder.binding.img.setImage(item)
-            }
+            holder.binding.img.setImage(item)
 
             listener?.apply {
                 holder.itemView.setOnClickListener {
