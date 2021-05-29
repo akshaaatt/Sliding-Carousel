@@ -26,7 +26,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.akshaaatt:Sliding-Carousel:1.0.0'
+    implementation 'com.github.akshaaatt:Sliding-Carousel:1.0.1'
 }
 ```
 ### Basic Usage
