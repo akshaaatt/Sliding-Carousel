@@ -1,3 +1,27 @@
+<h1 align="center">Sliding-Carousel</h1>
+
+<p align="center">
+    <a href="https://github.com/akshaaatt/Sliding-CarouselP/commits/master">
+    <img src="https://img.shields.io/github/last-commit/akshaaatt/Sliding-Carousel.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub last commit">
+    <a href="https://github.com/akshaaatt/Sliding-Carousel/issues">
+    <img src="https://img.shields.io/github/issues-raw/akshaaatt/Sliding-Carousel.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub issues">
+    <a href="https://github.com/akshaaatt/Sliding-Carousel/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/akshaaatt/Sliding-Carousel.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub pull requests">
+</p>
+      
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#development">Development</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#license">License</a> •
+  <a href="#contribution">Contribution</a>
+</p>
+
+---
+
 [![IMG-20210526-221913.jpg](https://i.postimg.cc/FKYVqNnP/IMG-20210526-221913.jpg)](https://postimg.cc/nstm9bx7)
 [![oka.gif](https://i.postimg.cc/DZMrPDc9/oka.gif)](https://postimg.cc/G8vTcXVK)
 
