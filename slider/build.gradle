@@ -1,5 +1,8 @@
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+}
 
 android {
     compileSdk 31
@@ -34,4 +37,20 @@ dependencies {
 
     // Circle Indicator
     implementation 'me.relex:circleindicator:2.1.6'
+}
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.release
+
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'com.limerse.slider'
+                artifactId = 'final'
+                version = '1.0'
+            }
+        }
+    }
 }
