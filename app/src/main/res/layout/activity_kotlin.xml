@@ -24,7 +24,7 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <com.limerse.slider.ImageCarousel
+        <com.aemerse.slider.ImageCarousel
             android:id="@+id/carousel1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -56,7 +56,7 @@
                     android:layout_marginBottom="8dp"
                     android:orientation="horizontal">
 
-                    <com.limerse.slider.ImageCarousel
+                    <com.aemerse.slider.ImageCarousel
                         android:id="@+id/carousel2"
                         android:layout_width="0dp"
                         android:layout_height="150dp"
@@ -125,7 +125,7 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <com.limerse.slider.ImageCarousel
+            <com.aemerse.slider.ImageCarousel
                 android:id="@+id/carousel3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -232,7 +232,7 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <com.limerse.slider.ImageCarousel
+            <com.aemerse.slider.ImageCarousel
                 android:id="@+id/carousel4"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -256,7 +256,7 @@
         </FrameLayout>
 
         <!-- ================================================================ -->
-        <com.limerse.slider.ImageCarousel
+        <com.aemerse.slider.ImageCarousel
             android:id="@+id/carousel5"
             android:layout_width="match_parent"
             android:layout_height="180dp"
@@ -279,7 +279,7 @@
 
         <!-- ================================================================ -->
 
-        <com.limerse.slider.ImageCarousel
+        <com.aemerse.slider.ImageCarousel
             android:id="@+id/carousel6"
             android:layout_width="match_parent"
             android:layout_height="160dp"

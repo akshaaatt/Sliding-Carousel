@@ -1,4 +1,4 @@
-package com.limerse.slider.utils
+package com.aemerse.slider.utils
 
 import android.graphics.Rect
 import android.view.View

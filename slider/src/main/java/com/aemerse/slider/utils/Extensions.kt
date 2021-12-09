@@ -1,6 +1,6 @@
 @file:JvmName("Utils")
 
-package com.limerse.slider.utils
+package com.aemerse.slider.utils
 
 import android.content.Context
 import android.util.DisplayMetrics
@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
-import com.limerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselItem
 
 /**
  * This method converts device specific pixels to density independent pixels.

@@ -1,4 +1,4 @@
-package com.limerse.slider.utils
+package com.aemerse.slider.utils
 
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager

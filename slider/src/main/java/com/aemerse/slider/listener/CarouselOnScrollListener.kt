@@ -1,7 +1,7 @@
-package com.limerse.slider.listener
+package com.aemerse.slider.listener
 
 import androidx.recyclerview.widget.RecyclerView
-import com.limerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselItem
 
 /**
  * @see androidx.recyclerview.widget.RecyclerView.OnScrollListener

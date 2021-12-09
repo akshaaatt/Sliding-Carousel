@@ -1,4 +1,4 @@
-package com.limerse.slider
+package com.aemerse.slider
 
 import android.content.Context
 import android.graphics.Color
@@ -19,20 +19,19 @@ import androidx.annotation.Dimension
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import androidx.recyclerview.widget.*
 import me.relex.circleindicator.CircleIndicator2
-import com.limerse.slider.adapter.FiniteCarouselAdapter
-import com.limerse.slider.adapter.InfiniteCarouselAdapter
-import com.limerse.slider.listener.CarouselListener
-import com.limerse.slider.listener.CarouselOnScrollListener
-import com.limerse.slider.model.CarouselGravity
-import com.limerse.slider.model.CarouselItem
-import com.limerse.slider.model.CarouselType
-import com.limerse.slider.utils.*
+import com.aemerse.slider.adapter.FiniteCarouselAdapter
+import com.aemerse.slider.adapter.InfiniteCarouselAdapter
+import com.aemerse.slider.listener.CarouselListener
+import com.aemerse.slider.listener.CarouselOnScrollListener
+import com.aemerse.slider.model.CarouselGravity
+import com.aemerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselType
+import com.aemerse.slider.utils.*
 import org.jetbrains.annotations.NotNull
 import org.jetbrains.annotations.Nullable
 

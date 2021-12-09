@@ -1,4 +1,4 @@
-package com.limerse.slider.model
+package com.aemerse.slider.model
 
 import androidx.annotation.DrawableRes
 

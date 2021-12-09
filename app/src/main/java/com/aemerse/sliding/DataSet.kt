@@ -1,4 +1,4 @@
-package com.limerse.sliding
+package com.aemerse.sliding
 
 object DataSet {
     val one = listOf(

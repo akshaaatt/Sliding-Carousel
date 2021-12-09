@@ -55,10 +55,10 @@ dependencies {
 ```
 ### Basic Usage
 
-Add the view `com.limerse.slider.ImageCarousel` in your layout:
+Add the view `com.aemerse.slider.ImageCarousel` in your layout:
 
 ```xml
-<com.limerse.slider.ImageCarousel
+<com.aemerse.slider.ImageCarousel
     android:id="@+id/carousel"
     android:layout_width="match_parent"
     android:layout_height="256dp" />
@@ -128,7 +128,7 @@ That's all you need to use the library! :)
 All the custom XML attributes for `ImageCarousel` view with default values are given below. All attributes are optional.
 
 ```xml
-<com.limerse.slider.ImageCarousel
+<com.aemerse.slider.ImageCarousel
     android:id="@+id/carousel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

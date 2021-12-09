@@ -1,10 +1,10 @@
-package com.limerse.slider.adapter
+package com.aemerse.slider.adapter
 
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.limerse.slider.model.CarouselGravity
-import com.limerse.slider.model.CarouselItem
-import com.limerse.slider.model.CarouselType
+import com.aemerse.slider.model.CarouselGravity
+import com.aemerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselType
 
 class InfiniteCarouselAdapter(
     recyclerView: RecyclerView,

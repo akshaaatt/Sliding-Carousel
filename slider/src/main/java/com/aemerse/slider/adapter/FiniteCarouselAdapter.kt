@@ -1,4 +1,4 @@
-package com.limerse.slider.adapter
+package com.aemerse.slider.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,13 +6,13 @@ import android.view.ViewTreeObserver
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
-import com.limerse.slider.databinding.ItemCarouselBinding
-import com.limerse.slider.listener.CarouselListener
-import com.limerse.slider.model.CarouselGravity
-import com.limerse.slider.model.CarouselItem
-import com.limerse.slider.model.CarouselType
-import com.limerse.slider.utils.CarouselItemDecoration
-import com.limerse.slider.utils.setImage
+import com.aemerse.slider.databinding.ItemCarouselBinding
+import com.aemerse.slider.listener.CarouselListener
+import com.aemerse.slider.model.CarouselGravity
+import com.aemerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselType
+import com.aemerse.slider.utils.CarouselItemDecoration
+import com.aemerse.slider.utils.setImage
 
 open class FiniteCarouselAdapter(
     private val recyclerView: RecyclerView,

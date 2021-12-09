@@ -1,4 +1,4 @@
-package com.limerse.sliding
+package com.aemerse.sliding
 
 import android.app.ActivityOptions
 import android.content.Context
@@ -11,19 +11,18 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
-import com.limerse.slider.listener.CarouselListener
-import com.limerse.slider.listener.CarouselOnScrollListener
-import com.limerse.slider.model.CarouselGravity
-import com.limerse.slider.model.CarouselItem
-import com.limerse.slider.model.CarouselType
-import com.limerse.slider.utils.dpToPx
-import com.limerse.slider.utils.setImage
-import com.limerse.slider.utils.spToPx
-import com.limerse.sliding.databinding.*
+import com.aemerse.slider.listener.CarouselListener
+import com.aemerse.slider.listener.CarouselOnScrollListener
+import com.aemerse.slider.model.CarouselGravity
+import com.aemerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselType
+import com.aemerse.slider.utils.dpToPx
+import com.aemerse.slider.utils.setImage
+import com.aemerse.slider.utils.spToPx
+import com.aemerse.sliding.databinding.*
 import kotlin.random.Random
 
 class KotlinActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.limerse.slider.model
+package com.aemerse.slider.model
 
 enum class CarouselGravity(val value: Int) {
     START(0),

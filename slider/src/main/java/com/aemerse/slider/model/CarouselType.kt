@@ -1,4 +1,4 @@
-package com.limerse.slider.model
+package com.aemerse.slider.model
 
 enum class CarouselType(val value: Int) {
     BLOCK(0),

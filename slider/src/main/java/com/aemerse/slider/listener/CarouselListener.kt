@@ -1,9 +1,9 @@
-package com.limerse.slider.listener
+package com.aemerse.slider.listener
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
-import com.limerse.slider.model.CarouselItem
+import com.aemerse.slider.model.CarouselItem
 
 interface CarouselListener {
     /**
