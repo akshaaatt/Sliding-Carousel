@@ -32,7 +32,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation project(':slider')
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.12.0'
 
     // Material Components
     implementation 'com.google.android.material:material:1.4.0'
